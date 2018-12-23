@@ -1,0 +1,17 @@
+The code is written in Python 3.6.4 and TensorFlow 1.9.0
+
+train_model.py: This file is used to train the basic classification model and the trained model is saved in the folder .\checkpoints\checkpoint. The saved model can be used to further experiments.
+
+dataset.py/mnist.py/download.py/cache.py: These three files are used to load the dataset and read the images into the neural network. The files are mainly from the tutorial: https://github.com/Hvass-Labs/TensorFlow-Tutorials. The MNIST dataset is stored in the folder .\data 
+
+ifgsm.py: This is the main file to implement the different adversarial attacks and compare their effect on the classification model. 
+
+gene_adver.py: The program is written to generate the adversarial examples using a specific attack. In the code, we defined the basic one-step FGSM model and the generated images will be saved in the adv.npy file and the true labels will be save in the onehotlabel.npy file.
+
+adver_training.py: The generated adversarial examples are input into the adversarial training model. The model also read some clean images and the trained model is saved in the folder ./checkpoints/adv/checkpoints.
+
+./results: All output images and images used in the presentation are saved in the folder. 
+
+Presentation_Data_Privacy_final.pptx: The powerpoint file used in the presentation.
+
+Data_Privacy_Final_Report.pdf: The report of the project.
