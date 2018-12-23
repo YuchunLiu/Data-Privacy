@@ -1,8 +1,8 @@
 The code is written in Python 3.6.4 and TensorFlow 1.9.0
 
-train_model.py: This file is used to train the basic classification model and the trained model is saved in the folder .\checkpoints\checkpoint. The saved model can be used to further experiments.
+train_model.py: This file is used to train the basic classification model and the trained model is saved in the folder ./checkpoints\checkpoint. The saved model can be used to further experiments.
 
-dataset.py/mnist.py/download.py/cache.py: These three files are used to load the dataset and read the images into the neural network. The files are mainly from the tutorial: https://github.com/Hvass-Labs/TensorFlow-Tutorials. The MNIST dataset is stored in the folder .\data 
+dataset.py/mnist.py/download.py/cache.py: These three files are used to load the dataset and read the images into the neural network. The files are mainly from the tutorial: https://github.com/Hvass-Labs/TensorFlow-Tutorials. The MNIST dataset is stored in the folder ./data 
 
 ifgsm.py: This is the main file to implement the different adversarial attacks and compare their effect on the classification model. 
 
