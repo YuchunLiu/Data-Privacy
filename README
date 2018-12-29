@@ -10,8 +10,6 @@ gene_adver.py: The program is written to generate the adversarial examples using
 
 adver_training.py: The generated adversarial examples are input into the adversarial training model. The model also read some clean images and the trained model is saved in the folder ./checkpoints/adv/checkpoints.
 
-./results: All output images and images used in the presentation are saved in the folder. 
-
-Presentation_Data_Privacy_final.pptx: The powerpoint file used in the presentation.
+./results: All output images and images used in the presentation are saved in the folder.
 
 Data_Privacy_Final_Report.pdf: The report of the project.
